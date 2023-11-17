@@ -5,7 +5,7 @@ Esta iniciativa é uma continuação do projeto homônimo "Arte e leitura no mur
 três murais entre os anos de 2021 a 2023, sob a coordenação e produção do **artista visual Pablo Marquinho**.
 Esses murais anteriores, baseados em contos e poesias de autores das regiões norte e nordeste.
 
-
-
+### Objetivo da landing page:
+Apresentar o projeto, e servir como um portfólio do que foi feito até agora. 
 
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/nKO5RxKD)
