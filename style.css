@@ -15,6 +15,7 @@
 
 body{
     font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
 }
 
 .container{
@@ -46,6 +47,10 @@ font-weight: 700;
     width: 988px;
     height: 272px;
     justify-content: center;
+}
+
+#muros {
+    margin-top: 20px; 
 }
 
 .Final p {
