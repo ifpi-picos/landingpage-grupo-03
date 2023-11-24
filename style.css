@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lacquer&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Lacquer&display=swap'); */
 
 :root{
     --primaria: #F9720B;
     --secundaria: #FCC609;
     --terciaria: #A82A50;
+    --quaternaria:#daa520;
 }
 
 .terciaria{
@@ -46,3 +47,100 @@ font-weight: 700;
     height: 272px;
     justify-content: center;
 }
+
+.Final p {
+    font-family: 'NomeDaNovaFonte', sans-serif;
+    width: 60vw;
+    font-size: 40px;
+    color: #fffcfc;
+    text-indent: 20px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 300px;
+}
+
+#artista {
+    background-color: var(--primaria);
+}
+
+.branca {
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.bege {
+    background-color: #BC793B;
+    font-family: 'NomeDaNovaFonte', sans-serif;
+    width: 1321px;
+    height: 35vh;
+    font-size: 40px;
+    margin-left: 20px;
+    margin: -12px;
+    justify-content;
+    padding-top: -10px;
+    color: #fffcfc; 
+}
+
+.bege #name {
+    position: absolute;
+    font-family: 'NomeDaNovaFonte', sans-serif;
+    color: #fffcfc;
+    font-size: 50px;
+    margin-left: -43%;
+    margin-top: 2px;
+}
+
+.bege #professor {
+    position: absolute;
+    font-family: 'NomeDaNovaFonte', sans-serif;
+    color: #FCC609;
+    font-size: 34px;
+    margin-left: -45%;
+    margin-top: 70px;
+
+}
+
+.bege #text {
+    font-family: 'NomeDaNovaFonte', sans-serif;
+    color: #fffcfc;
+    font-size: 35px;
+    margin-left: -24%;
+    margin-top: 130px;
+}
+
+#text-name {
+    font-family: 'Arial', sans-serif;
+    margin-bottom: 6%;
+}
+
+#artista img {
+    margin-top: -150px;
+}
+
+.imagem1 {
+    width: 350px;
+    height: 350px;
+    margin-left: 252px;
+    margin-right: 40px;
+  }
+  
+  .imagem2 {
+    width: 350px;
+    height: 350px;
+    margin-left: 120px;
+    margin-right: 150px;
+  }
+  
+  .imagem3 {
+    width: 350px;
+    height: 350px;
+    margin-left: -12px;
+    margin-right: 800px;
+  }
+  
+  #fotos {
+    background-color: var(--primaria);
+  }
+  
