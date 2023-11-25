@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lacquer&display=swap'); 
+
+:root{
+    --primaria: #F9720B;
+    --secundaria: #FCC609;
+    --terciaria: #A82A50;
+    --quaternaria:#daa520;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.terciaria{
+    color: var(--terciaria);
+    font-weight: bold;
+}

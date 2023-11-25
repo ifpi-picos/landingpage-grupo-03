@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lacquer&display=swap'); 
+
+:root{
+    --primaria: #F9720B;
+    --secundaria: #FCC609;
+    --terciaria: #A82A50;
+    --quaternaria:#daa520;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.terciaria{
+    color: var(--terciaria);
+    font-weight: bold;
+}
+
+header{
+    background-color: var(--primaria);
+    display: flex;
+    flex-direction: row;
+}
+
+
+header img{
+    width: 11rem;
+    height: 9rem;
+}
+
+header div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    font-family: Lacquer;
+    margin-left: 50rem;
+}
+
+nav{
+    display: flex;
+    gap: 32px;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: 22rem;
+}
+
+nav a{
+    text-decoration: none;
+    color: var(--terciaria);
+}
+
+.secao1{
+    font-size: xx-large;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center; 
+    text-align: justify;
+}
+
+.div1{
+    width: 67rem;
+    margin-top: 5rem;
+}
+
+.div2{
+    border: solid;
+    width: 67rem;
+    border-radius: 8px;
+    background-color: var(--primaria);
+    border-color: var(--primaria);
+}
+
+.englobar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 50rem;
+    gap: 10rem;
+
+}
