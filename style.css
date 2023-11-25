@@ -54,18 +54,4 @@ font-weight: 700;
 h1{
     color: black;
 }
-.card{
-    background-color: #FCC609; 
-   display:flex;
-   justify-content: center;
-   align-items: center;
-   height: 30vh;
-}
-.card-1{
-    background-color:#F9720B;
 
-}
-
-.card-2{
-    background-color: #FCC609;
-}
