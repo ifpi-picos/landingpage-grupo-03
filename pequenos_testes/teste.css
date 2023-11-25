@@ -17,33 +17,34 @@ body{
     font-weight: bold;
 }
 
+/*header*/
 header{
-    background-color: var(--primaria);
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    background-color: var(--primaria);
+    gap: 13rem;
 }
 
-
 header img{
-    width: 11rem;
-    height: 9rem;
+    width: 6rem;
+    height: 4rem;
 }
 
 header div{
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 1rem;
     font-family: Lacquer;
-    margin-left: 50rem;
+    flex-wrap: nowrap;
 }
 
 nav{
     display: flex;
-    gap: 32px;
-    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 15px;
     align-items: center;
-    margin-left: 22rem;
+    flex-wrap: wrap;
 }
 
 nav a{
@@ -51,33 +52,37 @@ nav a{
     color: var(--terciaria);
 }
 
-.secao1{
-    font-size: xx-large;
+main{
+    display: flex;
+    justify-content: center;
+}
+
+/*section sobre*/
+#sobre{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center; 
     text-align: justify;
+    width: 40rem;
+    
 }
 
 .div1{
-    width: 67rem;
-    margin-top: 5rem;
+    margin-top: 2rem;
+    flex-wrap: wrap;
 }
 
+
 .div2{
-    border: solid;
-    width: 67rem;
-    border-radius: 8px;
+    margin-top: 5rem;
     background-color: var(--primaria);
-    border-color: var(--primaria);
+    border-radius: 8px;
+    height: 9.8rem;
+    padding: 0.5rem;
 }
 
 .englobar{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-left: 50rem;
-    gap: 10rem;
-
+    margin-left: 0.8rem;
+    margin-right: 0.8rem;
 }
