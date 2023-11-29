@@ -1,416 +1,694 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lacquer&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Lacquer&display=swap');
+
 
 :root{
-    --primaria: #F9720B;
-    --secundaria: #FCC609;
-    --terciaria: #A82A50;
-    --quaternaria: #BC793B;
+   --primaria: #F9720B;
+   --secundaria: #FCC609;
+   --terciaria: #A82A50;
+   --quaternaria: #BC793B;
 }
+
 
 body{
-    font-family: 'Roboto', sans-serif;
-    overflow-x: hidden;
+   font-family: 'Roboto', sans-serif;
+   overflow-x: hidden;
 }
+
 
 .terciaria{
-    color: var(--terciaria);
-    font-weight: bold;
+   color: var(--terciaria);
+   font-weight: bold;
 }
+
 
 .terciaria2{
-    color: var(--terciaria);
-    font-weight: bold;
+   color: var(--terciaria);
+   font-weight: bold;
 }
+
 
 .terciaria2:hover{
-    color: black;
-    font-weight: bold;
+   color: black;
+   font-weight: bold;
 }
 
+
 .preto{
-    color: black;
-    font-weight: 600;
-    font-size: xx-large;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 50px;
+   color: black;
+   font-weight: 600;
+   font-size: xx-large;
+   display: flex;
+   justify-content: center;
+   margin-bottom: 50px;
 }
+
 
 /*header*/
 header{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    background-color: var(--primaria);
-    gap: 20rem;
-    /*width: 100%;
-    top: 0rem;
-    position: fixed;*/
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   background-color: var(--primaria);
+   gap: 20rem;
+   width: 100%;
+   top: 0rem;
+   position: fixed;
+   z-index: 999;
 }
+
 
 header img{
-    width: 8rem;
-    height: 5rem;
+   width: 8rem;
+   height: 5rem;
 }
+
 
 header div{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    font-family: Lacquer;
-    flex-wrap: nowrap;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   font-family: Lacquer;
+   flex-wrap: nowrap;
 }
+
 
 nav{
-    display: flex;
-    flex-direction: row;
-    gap: 15px;
-    align-items: center;
-    flex-wrap: wrap;
+   display: flex;
+   flex-direction: row;
+   gap: 15px;
+   align-items: center;
+   flex-wrap: wrap;
 }
+
 
 nav a{
-    text-decoration: none;
+   text-decoration: none;
 }
 
+
 .sombra {
-    border: solid 1px var(--quaternaria); 
-    background-color: var(--primaria); 
-    box-shadow: 10px -10px rgba(0,0,0,0.6);
-    -webkit-box-shadow: 10px -10px rgba(0,0,0,0.6);
-   }
+   border: solid 1px var(--quaternaria);
+   background-color: var(--primaria);
+   box-shadow: 10px -10px rgba(0,0,0,0.6);
+   -webkit-box-shadow: 10px -10px rgba(0,0,0,0.6);
+  }
+
+
 
 
 /*section sobre*/
 .englobar{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center; 
-    text-align: justify;
-    width: 40rem;
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   justify-content: center;
+   text-align: justify;
+   width: 40rem;
+
 
 }
+
 
 .div1{
-    margin-top: 3rem;
-    flex-wrap: wrap;
+   margin-top: 8rem;
+   flex-wrap: wrap;
 }
+
+
 
 
 .div2{
-    margin-top: 5rem;
-    background-color: var(--primaria);
-    border-radius: 8px;
-    padding: 0.5rem;
-    margin-bottom: 0.5rem;
+   margin-top: 5rem;
+   background-color: var(--primaria);
+   border-radius: 8px;
+   padding: 0.5rem;
+   margin-bottom: 0.5rem;
 }
+
 
 /*section murais*/
 .todo{
-    display: flex;
-    justify-content: center;
-    margin-bottom: 5rem;
+   display: flex;
+   justify-content: center;
+   margin-bottom: 5rem;
 }
+
 
 .quadrado{
-    display: flex;
-    justify-content: center;
-    background-color: var(--secundaria);
-    width: 40rem;
-    padding-top: 1rem;
-    border-radius: 8px;
+   display: flex;
+   justify-content: center;
+   background-color: var(--secundaria);
+   width: 40rem;
+   padding-top: 1rem;
+   border-radius: 8px;
 }
+
 
 .ilustracao p{
-    width: 19rem;
-    font-weight: 600;
-    font-size: medium;
-    margin-left: 1.7rem;
+   width: 19rem;
+   font-weight: 600;
+   font-size: medium;
+   margin-left: 1.7rem;
 }
+
 
 #murais img{
-    width: 19rem;
-    height: 17rem;
-    margin-right: 1rem;
-    margin-left: 1rem;
-    
+   width: 19rem;
+   height: 17rem;
+   margin-right: 1rem;
+   margin-left: 1rem;
+  
 }
 
+
 .texto{
-    width: 17rem;
-    text-align: justify;
+   width: 17rem;
+   text-align: justify;
 }
+
+
 
 
 .quadrado-laranja{
-    display: flex;
-    justify-content: center;
-    background-color: var(--primaria);
-    width: 40rem;
-    padding-top: 1rem;
-    border-radius: 8px;
-    gap: 1rem;
+   display: flex;
+   justify-content: center;
+   background-color: var(--primaria);
+   width: 40rem;
+   padding-top: 1rem;
+   border-radius: 8px;
+   gap: 1rem;
 }
+
 
 .ilustracao p{
-    width: 19rem;
-    font-weight: 700;
-    font-size: small;
+   width: 19rem;
+   font-weight: 700;
+   font-size: small;
 }
+
 
 .texto2{
-    width: 14rem;
-    text-align: justify;
+   width: 14rem;
+   text-align: justify;
 }
 
+
 .texto3{
-    width: 15rem;
-    text-align: justify;
+   width: 15rem;
+   text-align: justify;
 }
+
 
 /*section artista*/
 #artista{
-    background-color: var(--primaria);
-    margin-bottom: -5%;
-    margin-top: 3%;
+   background-color: var(--primaria);
+   margin-bottom: -5%;
+   margin-top: 3%;
 }
+
 
 .meio{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-bottom: 3rem;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   margin-bottom: 3rem;
 }
+
 
 .final img{
-    width: 40rem;
+   width: 40rem;
 }
+
 
 .infos{
-    background-color: var(--quaternaria);
-    color: #fff;
-    width: 40rem;
-    text-align: justify;
-    
-    padding: 1rem;
-    
+   background-color: var(--quaternaria);
+   color: #fff;
+   width: 40rem;
+   text-align: justify;
+  
+   padding: 1rem;
+  
 }
+
 
 .branco{
-    font-weight: 600;   
+   font-weight: 600;  
 }
 
+
 .secundaria{
-    color: var(--secundaria);
-    font-weight: 600;
+   color: var(--secundaria);
+   font-weight: 600;
 }
+
 
 /*footer*/
 .rodape {
-    background-color: #333333;
-    padding: 45px;
-    color: #fff;
-    font-size: 14px;
-    text-align: center;
-    min-height: 250px;
-    margin-top: -5rem;
-  }
-  
+   background-color: #333333;
+   padding: 45px;
+   color: #fff;
+   font-size: 14px;
+   text-align: center;
+   min-height: 250px;
+   margin-top: -5rem;
+ }
 
-  .lista-links {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-  
+
+ .lista-links {
+   list-style: none;
+   margin: 0;
+   padding: 0;
+ }
   .lista-links li {
-    display: inline-block;
-    margin-right: 10px;
-  }
-  
+   display: inline-block;
+   margin-right: 10px;
+ }
   .logos {
-    text-align: right;
+   text-align: right;
+ }
+
+
+ #logomambee{
+   width: 100px;
+   height: 100px;
+   float: left;
+   margin-left: -39px;
+   margin-top: 30px;
+   justify-content: center;
   }
 
-  #logomambee{
-    width: 100px;
-    height: 100px;
-    float: left;
-    margin-left: -110px;
-    margin-top: 30px;
-    justify-content: center;
-  
-  }
 
-  #logoifpi{
-    width: 140px;
-    height: 140px;
-    float: left;
-    margin-left: -5px;
-    margin-top: 10px;
-    justify-content: center;
-  }
+ #logoifpi{
+   width: 140px;
+   height: 140px;
+   float: left;
+   margin-left: -5px;
+   margin-top: 10px;
+   justify-content: center;
+ }
 
-  #textcenter{
-    text-align: center;
-    margin-top: 40px;
-  }
 
- @media (max-width: 1000px) {
-    header{
-        flex-direction: column;
-        gap: 0;
-    }
+ #textcenter{
+   text-align: center;
+   margin-top: 40px;
+ }
 
-    .englobar{
-        width: 100%;
-    }
 
-    .quadrado{
-        width: 100%;
-    }
+@media (max-width: 1000px) {
+   header{
+       flex-direction: column;
+       gap: 0;
+       width: 100%;
+   }
 
-    .quadrado-laranja{
-        width: 100%;
-    }
 
-    .final img{
-        width: 100%;
-    }
+   .englobar{
+       width: 100%;
+   }
 
-    .infos{
-        width: 100%;
-    }
 
-    .todo{
-        flex-direction: column;
-    }
+   .quadrado{
+       width: 100%;
+   }
 
-    .div1{
-        margin-top: 2rem;
-    }
 
-    .div2{
-        margin-top: 0;
-    }
+   .quadrado-laranja{
+       width: 100%;
+   }
 
-    .preto{
-        font-size: x-large;
-    }
 
-    .ilustracao p{
-        width: 100%;
-        font-size: small;
-    }
+   .final img{
+       width: 100%;
+   }
 
-    .texto{
-        width: 100%;
-        font-size: small;
-    }
 
-    .texto2{
-        width: 100%;
-        font-size: small;
-    }
+   .infos{
+       width: 100%;
+   }
 
-    .texto3{
-        width: 100%;
-        font-size: small;
-    }
 
-    .meio{
-        margin-bottom: 7rem;
-    }
+   .todo{
+       flex-direction: column;
+   }
 
-    #logomambee{
-        width: 100px;
-        height: 100px;
-        float: left;
-        margin-left: 0;
-        margin-top: 30px;
-    }
 
-    #logoifpi{
-        width: 140px;
-        height: 140px;
-        float: left;
-        margin-left: 0;
-        margin-top: 10px;
-    }
+   .div1{
+       margin-top: 8rem;
+   }
 
-    #textcenter{
-        text-align: center;
-        margin-top: 0;
-    }
+
+   .div2{
+       margin-top: 0;
+   }
+
+
+   .preto{
+       font-size: x-large;
+   }
+
+
+   .ilustracao p{
+       width: 100%;
+       font-size: small;
+       padding-right: 2rem;
+   }
+
+
+   .texto{
+       width: 100%;
+       font-size: small;
+   }
+
+
+   .texto2{
+       width: 100%;
+       font-size: small;
+   }
+
+
+   .texto3{
+       width: 100%;
+       font-size: small;
+   }
+
+
+   .meio{
+       margin-bottom: 7rem;
+   }
+
+
+   #logomambee{
+       width: 100px;
+       height: 100px;
+       float: left;
+       margin-left: 50px;
+       margin-top: 30px;
+   }
+
+
+   #logoifpi{
+       width: 140px;
+       height: 140px;
+       float: left;
+       margin-left: 0;
+       margin-top: 10px;
+   }
+
+
+   #textcenter{
+       text-align: center;
+       margin-top: 0;
+   }
+
+
+   .navegacao{
+       margin-left: 1rem;
+   }
 }
+
 
 @media (max-height: 600px) {
-    .rodape{
-        margin-top: 0;
-        align-items: center;
-    }
+   header{
+       width: 100%;
+   }
+
+
+   .rodape{
+       margin-top: 0;
+       align-items: center;
+   }
 }
+
 
 @media (max-width: 600px) {
-    .rodape{
-        margin-top: -5rem;
-    }
+
+
+   .div1{
+       margin-left: 2rem;
+       margin-right: 2rem;
+       margin-bottom: 2rem;
+       margin-top: 8rem;
+   }
+
+
+   .div2{
+       margin-left: 2rem;
+       margin-right: 2rem;
+   }
+
+
+   .quadrado{
+       display: flex;
+       flex-direction: column;
+   }
+
+
+   .quadrado-laranja{
+       display: flex;
+       flex-direction: column-reverse;
+   }
+
+
+   .todo{
+       margin-left: 2rem;
+       margin-right: 2rem;
+   }
+
+
+   .rodape{
+       margin-top: -5rem;
+   }
+
+
+   .navegacao{
+       margin-left: 1rem;
+   }
+
+
+   #logomambee{
+       margin-left: 20px;
+   }
 }
+
 
 @media (max-width: 400px) {
-    .rodape{
-        margin-top: 0;
-    }
+   header{
+       width: 100%;
+   }
 
-    .preto{
-        font-size: large;
-    }
 
-    .ilustracao p{
-        width: 100%;
-        font-size: small;
-    }
 
-    .texto{
-        width: 100%;
-        font-size: small;
-    }
 
-    .texto2{
-        width: 100%;
-        font-size: small;
-    }
+   .preto{
+       font-size: large;
+   }
+
+
+   .ilustracao p{
+       width: 100%;
+       font-size: small;
+       padding-right: 2rem;
+   }
+
+
+   .texto{
+       width: 100%;
+       font-size: small;
+   }
+
+
+   .texto2{
+       width: 100%;
+       font-size: small;
+   }
+
+
+   .div1{
+       margin-left: 2rem;
+       margin-right: 2rem;
+       margin-bottom: 2rem;
+       margin-top: 8rem;
+   }
+
+
+   .div2{
+       margin-left: 2rem;
+       margin-right: 2rem;
+   }
+
+
+   .quadrado{
+       display: flex;
+       flex-direction: column;
+   }
+
+
+   .quadrado-laranja{
+       display: flex;
+       flex-direction: column-reverse;
+   }
+
+
+   .todo{
+       margin-left: 2rem;
+       margin-right: 2rem;
+   }
+
+
+   .rodape{
+       margin-top: -5rem;
+   }
+
+
+   .navegacao{
+       margin-left: 1rem;
+   }
+
+
+   #logomambee{
+       margin-left: 50px;
+   }
 }
+
 
 @media (max-width: 300px) {
-    .rodape{
-        margin-top: 0;
-    }
+   header{
+       width: 100%;
+   }
 
-    .preto{
-        font-size: medium;
-    }
 
-    .ilustracao p{
-        width: 100%;
-        font-size: small;
-    }
+   .rodape{
+       margin-top: 0;
+   }
 
-    .texto{
-        width: 100%;
-        font-size: small;
-    }
 
-    .texto2{
-        width: 100%;
-        font-size: small;
-    }
+   .preto{
+       font-size: medium;
+   }
+
+
+   .ilustracao p{
+       width: 100%;
+       font-size: small;
+   }
+
+
+   .texto{
+       width: 100%;
+       font-size: small;
+   }
+
+
+   .texto2{
+       width: 100%;
+       font-size: small;
+   }
+
+
+   .texto2{
+       width: 100%;
+       font-size: small;
+   }
+
+
+   .div1{
+       margin-left: 2rem;
+       margin-right: 2rem;
+       margin-bottom: 2rem;
+       margin-top: 8rem;
+   }
+
+
+   .div2{
+       margin-left: 2rem;
+       margin-right: 2rem;
+   }
+
+
+   .quadrado{
+       display: flex;
+       flex-direction: column;
+   }
+
+
+   .quadrado-laranja{
+       display: flex;
+       flex-direction: column-reverse;
+   }
+
+
+   .todo{
+       margin-left: 2rem;
+       margin-right: 2rem;
+   }
+
+
+   .rodape{
+       margin-top: -5rem;
+   }
+
+
+   .navegacao{
+       margin-left: 1rem;
+   }
 }
 
+
 @media (max-width: 200px) {
-    .rodape{
-        margin-top: 0;
-    }
+   header{
+       width: 100%;
+   }
+
+
+   .texto2{
+       width: 100%;
+       font-size: small;
+   }
+
+
+   .div1{
+       margin-left: 2rem;
+       margin-right: 2rem;
+       margin-bottom: 2rem;
+       margin-top: 8rem;
+   }
+
+
+   .div2{
+       margin-left: 2rem;
+       margin-right: 2rem;
+   }
+
+
+   .quadrado{
+       display: flex;
+       flex-direction: column;
+   }
+
+
+   .quadrado-laranja{
+       display: flex;
+       flex-direction: column-reverse;
+   }
+
+
+   .todo{
+       margin-left: 2rem;
+       margin-right: 2rem;
+   }
+
+
+   .rodape{
+       margin-top: -5rem;
+   }
+
+
+   .ilustracao p{
+       padding-right: 2rem;
+   }
+      
+   .navegacao{
+       margin-left: 1rem;
+   }
 }
