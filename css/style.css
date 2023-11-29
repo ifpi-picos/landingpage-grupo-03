@@ -10,6 +10,7 @@
 
 body{
     font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
 }
 
 .terciaria{
@@ -33,7 +34,7 @@ body{
     font-size: xx-large;
     display: flex;
     justify-content: center;
-    margin-bottom: 3rem;
+    margin-bottom: 50px;
 }
 
 /*header*/
@@ -166,6 +167,8 @@ nav a{
 /*section artista*/
 #artista{
     background-color: var(--primaria);
+    margin-bottom: -5%;
+    margin-top: 3%;
 }
 
 .meio{
@@ -199,11 +202,12 @@ nav a{
 }
 
 .rodape {
-    background-color: #222222;
-    padding: 20px;
+    background-color: #333333;
+    padding: 45px;
     color: #fff;
     font-size: 14px;
     text-align: center;
+    min-height: 250px;
   }
   
   .lista-links {
@@ -225,8 +229,9 @@ nav a{
     width: 100px;
     height: 100px;
     float: left;
-    margin-left: -200px;
+    margin-left: -110px;
     margin-top: 30px;
+    justify-content: center;
   
   }
 
@@ -234,8 +239,9 @@ nav a{
     width: 140px;
     height: 140px;
     float: left;
-    margin-left: -80px;
+    margin-left: -5px;
     margin-top: 10px;
+    justify-content: center;
   }
 
   #textcenter{
@@ -309,10 +315,6 @@ nav a{
         margin-bottom: 0;
     }
 
-    .rodape{
-        margin-top: 0;
-    }
-
     #logomambee{
         width: 100px;
         height: 100px;
@@ -338,6 +340,7 @@ nav a{
 @media (max-height: 600px) {
     .rodape{
         margin-top: 0;
+        align-items: center;
     }
 }
 
@@ -370,8 +373,6 @@ nav a{
         width: 100%;
         font-size: small;
     }
-
-    
 }
 
 @media (max-width: 300px) {
@@ -397,7 +398,6 @@ nav a{
         width: 100%;
         font-size: small;
     }
-
 }
 
 @media (max-width: 200px) {
@@ -405,21 +405,3 @@ nav a{
         margin-top: 0;
     }
 }
-
-
-
-
-
-
-
-  
-  
-
-  
-
- 
-  
-
-
-  
-  
