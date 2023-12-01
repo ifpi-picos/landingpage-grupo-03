@@ -288,6 +288,28 @@ nav a{
    justify-content: center;
  }
 
+ .fa-brands{
+    font-size: 1.9rem;
+    margin-top: 1rem;
+ }
+
+ .fa-instagram{
+    margin-right: 0.5rem;
+    color: var(--terciaria);
+ }
+
+ .fa-github{
+    color: #fff;
+ }
+
+ .fa-instagram:hover{
+    color: var(--secundaria);
+ }
+
+ .fa-github:hover{
+    color: var(--primaria);
+ }
+
 
  #textcenter{
    text-align: center;
@@ -467,7 +489,7 @@ nav a{
 
 
    #logomambee{
-       margin-left: 20px;
+       margin-left: 50px;
    }
 }
 
